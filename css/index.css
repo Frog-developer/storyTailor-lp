@@ -166,6 +166,32 @@ header > .collapsible-header{
     }
 }
 
+/* Privacy Policy Page Styles */
+.privacy-policy-section h1 {
+    margin-bottom: 3rem;
+}
+
+.privacy-policy-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.privacy-policy-section p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.privacy-policy-section ul {
+    margin-bottom: 1.5rem;
+}
+
+.privacy-policy-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.privacy-policy-section > div > div {
+    margin-bottom: 4rem;
+}
+
 .footer-link{
     color: #434242;
     transition: color 0.3s;
