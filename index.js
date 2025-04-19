@@ -68,10 +68,10 @@ gsap.fromTo(
 );
 
 const images = [
-  "assets/images/home/hiking1.jpg",
-  "assets/images/home/hiking2.jpg",
-  "assets/images/home/hiking3.jpg",
-  "assets/images/home/hiking4.jpg",
+  "assets/images/home/pages1.png",
+  "assets/images/home/pages2.png",
+  "assets/images/home/pages3.png",
+  "assets/images/home/pages4.png",
 ];
 
 function addSlideShowImages(img) {
@@ -95,34 +95,21 @@ function addSlideShowImages(img) {
 images.forEach((img) => addSlideShowImages(img));
 
 const countries = [
-  "United states",
-  "Canada",
-  "Mexico",
-  "Brazil",
-  "Argentina",
-  "Sweden",
-  "Turkey",
-  "England",
-  "Ireland",
-  "Finland",
-  "Norway",
-  "India",
-  "Sri Lanka",
-  "China",
-  "Russia",
-  "Australia",
-  "Singapore",
-  "Malaysia",
+  "冒険",
+  "ファンタジー",
+  "サスペンス",
+  "ホラー",
+  "恋愛",
+  "歴史",
+  "ミステリー",
+  "コメディ",
+  "ドラマ",
+  "SF",
 ];
 
 const places = [
-  "Eiffle Tower",
-  "Great Wall of China",
-  "Taj Mahal",
-  "Bali",
-  "Maldives",
-  "Leaning tower of Pisa",
-  "Statue of Liberty",
+  //   "アメリカ",
+  //   "フランス",
 ];
 
 const countriesContainer = document.querySelector(".countries-container");
