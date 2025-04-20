@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
+@layer components {
+  /* スモールスクリーン用のカスタムブレイクポイント */
+  @screen sm {
+    .max-sm\:tw-max-w-\[150px\] {
+      max-width: 150px;
+    }
+    .max-sm\:tw-max-h-\[140px\] {
+      max-height: 140px;
+    }
+  }
 }
-
-  

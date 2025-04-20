@@ -87,7 +87,7 @@ function addSlideShowImages(img) {
   imageContainer.innerHTML += `
                 <img src="${img}" 
                         alt="hiking"
-                        class="tw-object-cover tw-w-full tw-h-full">
+                        class="tw-object-cover tw-w-[200px] tw-h-[200px]">
     `;
   slideShowContainer.prepend(imageContainer);
 }
