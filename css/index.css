@@ -13,7 +13,15 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* ヘッダーの高さ分のパディングを追加 */
   font-family: "Ubuntu", sans-serif;
+  /* スクロールアンカーを追加 */
+  scroll-snap-type: y proximity;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-margin-top: 80px;
 }
 
 header {
@@ -43,6 +51,8 @@ header > .collapsible-header {
   border-radius: 5px;
   padding: 5px 10px;
   transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .header-links:hover {
@@ -240,6 +250,24 @@ header > .collapsible-header {
 .faq-accordion .active,
 .faq-accordion:hover {
   /* background-color: #2e2c2c; */
+}
+
+.scroll-link {
+  cursor: pointer;
+}
+
+.slideshow-container {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.swiper-slide img {
+  max-height: 240px;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide-active img {
+  transform: scale(1.05);
 }
 
 @media not all and (min-width: 1024px) {
