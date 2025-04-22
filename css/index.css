@@ -9,11 +9,49 @@
   --primary-text-color: #000;
   --header-link-hover: #000;
   --input-hover-bd-color: #000;
+
+  --gradient-color-1: #ffd1d1; /* ビビッドピンク */
+  --gradient-color-2: #b4e4ff; /* ブライトスカイブルー */
+  --gradient-color-3: #ffd4b2; /* ビビッドピーチ */
+  --gradient-color-4: #e5d1fa; /* ビビッドラベンダー */
 }
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* ヘッダーの高さ分のパディングを追加 */
   font-family: "Ubuntu", sans-serif;
+  /* スクロールアンカーを追加 */
+  scroll-snap-type: y proximity;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    var(--gradient-color-1) 0%,
+    var(--gradient-color-2) 33%,
+    var(--gradient-color-3) 66%,
+    var(--gradient-color-4) 100%
+  );
+  background-attachment: fixed;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-margin-top: 80px;
 }
 
 header {
@@ -43,6 +81,8 @@ header > .collapsible-header {
   border-radius: 5px;
   padding: 5px 10px;
   transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .header-links:hover {
@@ -240,6 +280,24 @@ header > .collapsible-header {
 .faq-accordion .active,
 .faq-accordion:hover {
   /* background-color: #2e2c2c; */
+}
+
+.scroll-link {
+  cursor: pointer;
+}
+
+.slideshow-container {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.swiper-slide img {
+  max-height: 240px;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide-active img {
+  transform: scale(1.05);
 }
 
 @media not all and (min-width: 1024px) {

@@ -43,6 +43,50 @@ function responsive() {
 
 window.addEventListener("resize", responsive);
 
+// スムーズスクロールの処理を改善
+document.querySelectorAll(".header-links").forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    const targetId = link.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+      // モバイルメニューが開いている場合は閉じる
+      if (window.innerWidth < RESPONSIVE_WIDTH && !isHeaderCollapsed) {
+        toggleHeader();
+      }
+
+      // スクロール位置を計算
+      const headerHeight = 80;
+      const targetPosition = targetElement.offsetTop - headerHeight;
+
+      // スムーズスクロールを実行
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "smooth",
+      });
+
+      // URLのハッシュを更新（オプション）
+      history.pushState(null, "", targetId);
+    }
+  });
+});
+
+// ページロード時のハッシュリンクに対応
+window.addEventListener("load", () => {
+  if (window.location.hash) {
+    const targetElement = document.querySelector(window.location.hash);
+    if (targetElement) {
+      const headerHeight = 80;
+      const targetPosition = targetElement.offsetTop - headerHeight;
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "smooth",
+      });
+    }
+  }
+});
+
 /**
  * Animations
  */
@@ -81,14 +125,18 @@ function addSlideShowImages(img) {
     "swiper-slide",
     "slide",
     "tw-rounded-md",
-    "!tw-h-[450px]"
+    "tw-flex",
+    "tw-items-center",
+    "tw-justify-center",
+    "tw-h-full"
   );
 
-  imageContainer.innerHTML += `
-                <img src="${img}" 
-                        alt="hiking"
-                        class="tw-object-cover tw-w-[200px] tw-h-[200px]">
-    `;
+  imageContainer.innerHTML = `
+    <img src="${img}" 
+         alt="story page"
+         class="tw-object-contain tw-max-h-full tw-w-auto tw-rounded-md tw-shadow-lg"
+    />
+  `;
   slideShowContainer.prepend(imageContainer);
 }
 
@@ -141,18 +189,17 @@ const swiper = new Swiper(".slideshow-container", {
   grabCursor: true,
   loop: true,
   centeredSlides: true,
-  slidesPerView: "auto",
+  slidesPerView: 1,
+  spaceBetween: 20,
   creativeEffect: {
     prev: {
       shadow: true,
-      origin: "left center",
-      translate: ["-5%", 0, -200],
-      rotate: [0, 100, 0],
+      translate: ["-20%", 0, -200],
+      rotate: [0, 15, 0],
     },
     next: {
-      origin: "right center",
-      translate: ["5%", 0, -200],
-      rotate: [0, -100, 0],
+      translate: ["20%", 0, -200],
+      rotate: [0, -15, 0],
     },
   },
   navigation: {
