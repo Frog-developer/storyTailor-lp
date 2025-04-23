@@ -207,13 +207,18 @@ header > .collapsible-header {
   }
 }
 
+.footer-link.header-links {
+  color: #000000 !important; /* フッターのリンクを強制的に黒に */
+}
+
 .footer-link {
-  color: #434242;
+  color: #000000;
   transition: color 0.3s;
 }
 
 .footer-link:hover {
-  color: #0b0b0b;
+  color: #000000;
+  opacity: 0.7;
 }
 
 /* Next & previous buttons */
