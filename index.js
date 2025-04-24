@@ -46,8 +46,14 @@ window.addEventListener("resize", responsive);
 // スムーズスクロールの処理を改善
 document.querySelectorAll(".header-links").forEach((link) => {
   link.addEventListener("click", (e) => {
-    e.preventDefault();
     const targetId = link.getAttribute("href");
+    
+    // 別ページへのリンクの場合は対象外にする (# で始まらないもの、または #だけのもの)
+    if (!targetId.startsWith('#') || targetId === '#') {
+      return; // 通常のリンク動作を継続
+    }
+    
+    e.preventDefault();
     const targetElement = document.querySelector(targetId);
 
     if (targetElement) {
@@ -111,36 +117,6 @@ gsap.fromTo(
   }
 );
 
-const images = [
-  "assets/images/home/pages1.png",
-  "assets/images/home/pages2.png",
-  "assets/images/home/pages3.png",
-  "assets/images/home/pages4.png",
-];
-
-function addSlideShowImages(img) {
-  const imageContainer = document.createElement("div");
-
-  imageContainer.classList.add(
-    "swiper-slide",
-    "slide",
-    "tw-rounded-md",
-    "tw-flex",
-    "tw-items-center",
-    "tw-justify-center",
-    "tw-h-full"
-  );
-
-  imageContainer.innerHTML = `
-    <img src="${img}" 
-         alt="story page"
-         class="tw-object-contain tw-max-h-full tw-w-auto tw-rounded-md tw-shadow-lg"
-    />
-  `;
-  slideShowContainer.prepend(imageContainer);
-}
-
-images.forEach((img) => addSlideShowImages(img));
 
 const countries = [
   "冒険",

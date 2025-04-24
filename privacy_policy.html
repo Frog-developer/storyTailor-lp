@@ -35,8 +35,9 @@
     >
         <header
             class="tw-max-w-lg:tw-px-4 tw-max-w-lg:tw-mr-auto tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] lg:tw-justify-around"
+            style="background-color: rgba(4, 67, 108, 1); color: white;"
         >
-            <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="">
+            <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="index.html">
                 <img
                     src="./assets/logo/logo.png"
                     alt="logo"
@@ -50,30 +51,38 @@
                 <div
                     class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center"
                 >
-                    <a class="header-links" href=""> About us </a>
-                    <a class="header-links" href="#pricing"> Pricing </a>
-                    <a class="header-links" href=""> Solutions </a>
-                    <a class="header-links" href=""> Features </a>
-                    <a class="header-links" href=""> Company </a>
+                    <a class="header-links" href="index.html#about-section" style="color: white;">About us</a>
+                    <a class="header-links" href="index.html#features-section" style="color: white;">Features</a>
+                    <a class="header-links" href="index.html#pricing-section" style="color: white;">Pricing</a>
+                    <a class="header-links" href="index.html#contact-section" style="color: white;">Contact</a>
                 </div>
                 <div
                     class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center"
                 >
-                    <a
-                        href=""
-                        aria-label="signup"
-                        class="tw-rounded-md tw-border-[1px] tw-border-black tw-bg-transparent tw-px-3 tw-py-2 tw-text-black tw-transition-colors tw-duration-[0.3s] hover:tw-bg-black hover:tw-text-white"
-                    >
-                        <span>Download</span>
-                        <i class="bi bi-download"></i>
-                    </a>
+                    <div class="tw-flex tw-gap-2 tw-items-center">
+                        <a href="" aria-label="App Store">
+                            <img
+                                src="./assets/images/brand-logos/app-store-badge.png"
+                                alt="App store badge"
+                                class="tw-max-w-[100px] tw-h-auto"
+                            />
+                        </a>
+                        <a href="" aria-label="Google Play">
+                            <img
+                                src="./assets/images/brand-logos/google-play-badge.png"
+                                alt="Google Play badge"
+                                class="tw-max-w-[100px] tw-h-auto"
+                            />
+                        </a>
+                    </div>
                 </div>
             </div>
             <button
-                class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-black lg:tw-hidden"
+                class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-white lg:tw-hidden"
                 onclick="toggleHeader()"
                 aria-label="menu"
                 id="collapse-btn"
+                style="color: white;"
             ></button>
         </header>
 
@@ -188,6 +197,7 @@
 
         <footer
             class="tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-3 tw-p-[5%] tw-px-[10%] tw-text-white max-md:tw-flex-col"
+            style="background-color: rgba(4, 67, 108, 1); color: white;"
         >
             <div
                 class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-place-items-center tw-gap-6 max-md:tw-w-full"
@@ -198,53 +208,15 @@
                     srcset=""
                     class="tw-max-w-[120px]"
                 />
-                <div>
-                    2 Lord Edward St,
-                    <br />
-                    D02 P634,
-                    <br />
-                    United States
-                </div>
-                <div class="tw-mt-3 tw-text-lg tw-font-semibold">Follow us</div>
-                <div class="tw-flex tw-gap-4 tw-text-2xl">
-                    <a href="" aria-label="Facebook">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a
-                        href="https://twitter.com/@pauls_freeman"
-                        aria-label="Twitter"
-                    >
-                        <i class="bi bi-twitter"></i>
-                    </a>
-                    <a
-                        href="https://instagram.com/"
-                        class="tw-h-[40px] tw-w-[40px]"
-                        aria-label="Instagram"
-                    >
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </div>
             </div>
 
             <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
-                <h2 class="tw-text-3xl max-md:tw-text-xl">Company</h2>
                 <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-                    <a href="" class="footer-link">Use cases</a>
-                    <a href="" class="footer-link">Integrations</a>
-                    <a href="" class="footer-link">Change logs</a>
-                    <a href="" class="footer-link">Blogs</a>
-                    <a href="" class="footer-link">Contact</a>
-                </div>
-            </div>
-
-            <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
-                <h2 class="tw-text-3xl max-md:tw-text-xl">Resources</h2>
-                <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-                    <a href="" class="footer-link">About us</a>
-                    <a href="" class="footer-link">FAQ</a>
-                    <a href="" class="footer-link">Contact Us</a>
-                    <a href="" class="footer-link">Blogs</a>
-                    <a href="" class="footer-link">Privacy policy</a>
+                    <a href="index.html#about-section" class="footer-link header-links" style="color: white !important;">About us</a>
+                    <a href="index.html#features-section" class="footer-link header-links" style="color: white !important;">Features</a>
+                    <a href="index.html#pricing-section" class="footer-link header-links" style="color: white !important;">Pricing</a>
+                    <a href="index.html#contact-section" class="footer-link header-links" style="color: white !important;">Contact</a>
+                    <a href="/privacy_policy.html" class="footer-link header-links" style="color: white !important;">Privacy</a>
                 </div>
             </div>
         </footer>
