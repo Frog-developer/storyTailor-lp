@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@font-face {
+  font-family: "夜すがら手書きフォント1.2";
+  src: url(./Font/夜すがら手書きフォント1.2/yosugaraver1_2.ttf)
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
 :root {
   --bg-color: #fff;
@@ -9,17 +16,15 @@
   --primary-text-color: #000;
   --header-link-hover: #000;
   --input-hover-bd-color: #000;
-
 }
 
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px; /* ヘッダーの高さ分のパディングを追加 */
-  font-family: "Ubuntu", sans-serif;
+  font-family: "夜すがら手書きフォント1.2", sans-serif;
   /* スクロールアンカーを追加 */
   scroll-snap-type: y proximity;
 }
-
 
 section {
   scroll-snap-align: start;
