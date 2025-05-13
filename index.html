@@ -29,6 +29,35 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <style>
+      .team-image {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        object-fit: cover;
+        filter: grayscale(100%);
+        transition: all 0.3s ease;
+      }
+
+      .team-image:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+      }
+
+      .team-container {
+        display: flex;
+        justify-content: center;
+        gap: 160px;
+        width: 100%;
+      }
+
+      @media (max-width: 768px) {
+        .team-container {
+          gap: 80px;
+        }
+      }
+    </style>
   </head>
   <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-white tw-text-black">
     <header
@@ -145,7 +174,7 @@
               style="
                 top: 50%;
                 transform: translateY(-50%);
-                width: 84%;
+                width: 70%;
                 height: 94%;
                 border-radius: 10%;
               "
@@ -159,7 +188,7 @@
               style="
                 top: 50%;
                 transform: translateY(-50%);
-                width: 84%;
+                width: 70%;
                 height: 94%;
                 border-radius: 10%;
               "
@@ -355,11 +384,11 @@
       >
         <!-- Free Plan -->
         <div
-          class="tw-flex tw-w-full tw-max-w-[350px] tw-h-[400px] tw-flex-col tw-gap-4 tw-rounded-lg tw-border-[1px] tw-border-black tw-p-6 tw-transition-all hover:tw-scale-105"
+          class="tw-flex tw-w-full tw-max-w-[350px] tw-h-[400px] tw-flex-col tw-gap-4 tw-rounded-lg tw-border-[1px] tw-border-gray-200 tw-bg-gray-100 tw-p-6 tw-text-gray-800 tw-transition-all hover:tw-scale-105"
         >
           <h3 class="tw-text-2xl tw-font-bold">Free</h3>
           <div class="tw-flex tw-items-baseline tw-gap-1">
-            <span class="tw-text-4xl tw-font-bold">¥0</span>
+            <span class="tw-text-6xl tw-font-bold">¥0</span>
             <span class="tw-text-gray-600">/月</span>
           </div>
           <ul class="tw-list-disc tw-pl-8 tw-flex-grow">
@@ -469,45 +498,58 @@
       class="tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-3 tw-p-[5%] tw-px-[10%] tw-text-white max-md:tw-flex-col"
       style="background-color: rgba(4, 67, 108, 1); color: white"
     >
-      <div
-        class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-place-items-center tw-gap-6 max-md:tw-w-full"
-      >
-        <img
-          src="./assets/logo/logo.png"
-          alt="logo"
-          srcset=""
-          class="tw-max-w-[120px]"
-        />
-        <!-- <div>
-                    2 Lord Edward St,
-                    <br />
-                    D02 P634,
-                    <br />
-                    United States
-                </div>
-                <div class="tw-mt-3 tw-text-lg tw-font-semibold">Follow us</div>
-                <div class="tw-flex tw-gap-4 tw-text-2xl">
-                    <a href="" aria-label="Facebook">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a
-                        href="https://twitter.com/@pauls_freeman"
-                        aria-label="Twitter"
-                    >
-                        <i class="bi bi-twitter"></i>
-                    </a>
-                    <a
-                        href="https://instagram.com/"
-                        class="tw-h-[40px] tw-w-[40px]"
-                        aria-label="Instagram"
-                    >
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </div> -->
+      <div class="tw-flex tw-flex-col tw-items-center tw-gap-8 tw-w-full">
+        <!-- ロゴセクション -->
+        <img src="./assets/logo/logo.png" alt="logo" class="tw-max-w-[120px]" />
+
+        <!-- チームセクション - 横並び -->
+        <div class="team-container">
+          <!-- CEO -->
+          <div class="tw-flex tw-flex-col tw-items-center tw-gap-4">
+            <div class="tw-overflow-hidden tw-rounded-full">
+              <img
+                src="./assets/images/home/Keita.jpeg"
+                alt="三船 啓太"
+                class="team-image"
+              />
+            </div>
+            <div class="tw-text-center">
+              <p class="tw-text-2xl tw-font-bold tw-text-white">Keita</p>
+              <a
+                href="https://www.linkedin.com/in/keita-mifune/"
+                target="_blank"
+                class="tw-text-gray-300 hover:tw-text-blue-300"
+              >
+                <i class="bi bi-linkedin tw-text-2xl"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- CTO -->
+          <div class="tw-flex tw-flex-col tw-items-center tw-gap-4">
+            <div class="tw-overflow-hidden tw-rounded-full">
+              <img
+                src="./assets/images/home/kansuke.jpeg"
+                alt="伊藤 寛介"
+                class="team-image"
+              />
+            </div>
+            <div class="tw-text-center">
+              <p class="tw-text-2xl tw-font-bold tw-text-white">Kansuke</p>
+              <a
+                href="https://www.linkedin.com/in/itouoti/"
+                target="_blank"
+                class="tw-text-gray-300 hover:tw-text-blue-300"
+              >
+                <i class="bi bi-linkedin tw-text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
+      <!-- メニューセクション -->
       <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
-        <!-- <h2 class="tw-text-3xl max-md:tw-text-xl">Company</h2> -->
         <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
           <a
             href="#about-section"
@@ -541,17 +583,6 @@
           >
         </div>
       </div>
-
-      <!-- <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
-                <h2 class="tw-text-3xl max-md:tw-text-xl">Resources</h2>
-                <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-                    <a href="" class="footer-link">About us</a>
-                    <a href="" class="footer-link">FAQ</a>
-                    <a href="" class="footer-link">Contact Us</a>
-                    <a href="" class="footer-link">Blogs</a>
-                    <a href="" class="footer-link">Privacy policy</a>
-                </div>
-            </div> -->
     </footer>
   </body>
 
