@@ -1,0 +1,18 @@
+tr
+// "Storytailor", "Storyteller" ve "tailor" kelimelerinden türetilmiş bir birleşik kelimedir.
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "Kendi resimli kitabınızı\noluşturun ve kelimeleri öğrenin",
+    "Öğrenmek istediğiniz\nkelimeleri kaydedin",
+    "Kelimeleri metinler ve\nillüstrasyonlarla kolayca hatırlayın",
+    "Favori türünüzde bir\nresimli kitap oluşturun",
+    "Kelimelerin anlamını\nanında anlayın"
+  ],
+  "description": "Storytailor, kullanıcının girdiği kelimelere dayalı olarak benzersiz ve orijinal hikayeler oluşturan bir uygulamadır. Özellikleri şunlardır:\n\nKullanımı kolay: Kelimeleri girin ve bir kategori seçerek hikaye oluşturun.\n\nOrijinal hikayeler: Seçtiğiniz kelimelere dayalı tamamen özelleştirilmiş bir hikaye oluşturun.\n\nKitaplık özelliği: Oluşturduğunuz hikayeleri kaydedin ve istediğiniz zaman okuyun.\n\nYükseltme seçenekleri: Premium özelliklerle daha fazla kategori ve özelleştirme seçeneklerinin keyfini çıkarın.\n\nDaha fazla bilgi için resmi web sitemizi ziyaret edin.\n\nGizlilik Politikası: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nKullanım Koşulları: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Kelimelerinizle benzersiz hikayeler oluşturun ve hikayenizin tadını çıkarın!",
+  "warning": "Ekran görüntülerinde gösterilen metinler Japonca sürüm içindir.",
+  "whats_new": "Artık dünya çapında kullanılabilir!"
+}

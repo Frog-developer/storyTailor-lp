@@ -1,0 +1,18 @@
+sv
+// "Storytailor" är ett sammansatt ord av "Storyteller" och "tailor".
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "Skapa din egen\nillustrerade bok och lär dig ord",
+    "Spara orden\ndu vill lära dig",
+    "Kom ihåg ord enkelt\nmed hjälp av texter och illustrationer",
+    "Skapa en illustrerad bok\ni din favoritgenre",
+    "Förstå omedelbart\nbetydelsen av ord"
+  ],
+  "description": "Storytailor är en app som genererar unika och originella berättelser baserade på de ord som användaren anger. Funktionerna inkluderar:\n\nEnkel att använda: Ange ord och välj en kategori för att skapa en berättelse.\n\nOriginella berättelser: Skapa en helt anpassad berättelse baserad på de ord du valt.\n\nBokhyllafunktion: Spara skapade berättelser och läs dem när som helst.\n\nUppgraderingsalternativ: Njut av fler kategorier och anpassningar med premiumfunktioner.\n\nFör mer information, besök vår officiella webbplats.\n\nIntegritetspolicy: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nAnvändarvillkor: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Skapa unika berättelser från dina ord och njut av din egen berättelse!",
+  "warning": "Texterna som visas i skärmdumparna är för den japanska versionen.",
+  "whats_new": "Nu tillgänglig över hela världen!"
+}

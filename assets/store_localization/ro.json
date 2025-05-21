@@ -1,0 +1,18 @@
+ro
+// "Storytailor" este un cuvânt compus format din "Storyteller" și "tailor".
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "Creează-ți propria carte ilustrată\nși învață cuvinte",
+    "Salvează cuvintele\npe care vrei să le înveți",
+    "Memorează cuvintele cu ușurință\nprin texte și ilustrații",
+    "Creează o carte ilustrată\nîn genul tău preferat",
+    "Înțelege instant\nsemnificația cuvintelor"
+  ],
+  "description": "Storytailor este o aplicație care generează povești unice și originale pe baza cuvintelor introduse de utilizator. Funcționalitățile includ:\n\nUșor de utilizat: Introdu cuvinte și selectează o categorie pentru a genera o poveste.\n\nPovești originale: Creează o poveste complet personalizată pe baza cuvintelor alese de tine.\n\nFuncția bibliotecă: Salvează poveștile create și citește-le oricând.\n\nOpțiuni de upgrade: Bucură-te de mai multe categorii și personalizări cu funcții premium.\n\nPentru mai multe informații, vizitează site-ul nostru oficial.\n\nPolitica de confidențialitate: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nTermeni de utilizare: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Creează povești unice din cuvintele tale și bucură-te de povestea ta!",
+  "warning": "Textele afișate în capturile de ecran sunt pentru versiunea japoneză.",
+  "whats_new": "Acum disponibil la nivel global!"
+}

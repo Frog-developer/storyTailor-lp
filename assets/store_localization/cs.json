@@ -1,0 +1,18 @@
+cs
+// "Storytailor" je složené slovo vytvořené z "Storyteller" a "tailor".
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "Vytvořte si vlastní\nilustrovanou knihu a učte se slova",
+    "Ukládejte si slova,\nkterá se chcete naučit",
+    "Snadno si zapamatujte slova\npomocí textů a ilustrací",
+    "Vytvořte si ilustrovanou knihu\nve svém oblíbeném žánru",
+    "Okamžitě pochopte\nvýznam slov"
+  ],
+  "description": "Storytailor je aplikace, která generuje jedinečné a originální příběhy na základě slov zadaných uživatelem. Obsahuje následující funkce:\n\nSnadné použití: Stačí zadat slova a vybrat kategorii, příběh se vytvoří automaticky.\n\nOriginální příběhy: Vytvořte si plně přizpůsobený příběh na základě vámi vybraných slov.\n\nFunkce knihovny: Uložte si vytvořené příběhy a kdykoli si je přečtěte.\n\nMožnosti upgradu: Užijte si více kategorií a přizpůsobení s prémiovými funkcemi.\n\nPro více informací navštivte naše oficiální stránky.\n\nZásady ochrany osobních údajů: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nPodmínky použití: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Vytvářejte jedinečné příběhy ze svých slov a užívejte si vlastní pohádku!",
+  "warning": "Texty zobrazené na snímcích obrazovky jsou pro japonskou verzi.",
+  "whats_new": "Nyní dostupné po celém světě!"
+}

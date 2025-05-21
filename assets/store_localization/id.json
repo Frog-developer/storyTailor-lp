@@ -1,0 +1,18 @@
+id
+// "Storytailor" adalah kata gabungan dari "Storyteller" dan "tailor".
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "Buat buku bergambar\nanda sendiri dan pelajari kata-kata",
+    "Simpan kata-kata\nyang ingin anda pelajari",
+    "Ingat kata-kata dengan mudah\ndengan teks dan ilustrasi",
+    "Buat buku bergambar\ndalam genre favorit anda",
+    "Pahami arti kata\nsecara instan"
+  ],
+  "description": "Storytailor adalah aplikasi yang menghasilkan cerita unik dan orisinal berdasarkan kata-kata yang dimasukkan oleh pengguna. Fitur-fiturnya meliputi:\n\nMudah digunakan: Masukkan kata-kata dan pilih kategori untuk membuat cerita.\n\nCerita orisinal: Buat cerita yang sepenuhnya disesuaikan berdasarkan kata-kata yang anda pilih.\n\nFitur rak buku: Simpan cerita yang telah dibuat dan baca kapan saja.\n\nOpsi peningkatan: Nikmati lebih banyak kategori dan penyesuaian dengan fitur premium.\n\nUntuk informasi lebih lanjut, kunjungi situs resmi kami.\n\nKebijakan Privasi: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nSyarat Penggunaan: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Buat cerita orisinal dari kata-kata anda dan nikmati membuat cerita anda sendiri!",
+  "warning": "Teks yang ditampilkan pada tangkapan layar adalah untuk versi Jepang.",
+  "whats_new": "Sekarang tersedia di seluruh dunia!"
+}

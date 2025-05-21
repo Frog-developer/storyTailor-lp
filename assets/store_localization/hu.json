@@ -1,0 +1,18 @@
+hu
+// A "Storytailor" a "Storyteller" és a "tailor" szavakból összetett szó.
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "Készítsd el saját\nillusztrált könyvedet és tanulj szavakat",
+    "Mentsd el a szavakat,\namelyeket meg szeretnél tanulni",
+    "Jegyezd meg könnyedén a szavakat\nszövegek és illusztrációk segítségével",
+    "Készíts illusztrált könyvet\na kedvenc műfajodban",
+    "Értsd meg azonnal\na szavak jelentését"
+  ],
+  "description": "A Storytailor egy olyan alkalmazás, amely egyedi és eredeti történeteket generál a felhasználó által megadott szavak alapján. Funkciói a következők:\n\nEgyszerű használat: Írd be a szavakat, és válassz egy kategóriát a történet létrehozásához.\n\nEredeti történetek: Hozz létre teljesen testreszabott történetet az általad választott szavak alapján.\n\nKönyvespolc funkció: Mentsd el a létrehozott történeteket, és olvasd el őket bármikor.\n\nFrissítési lehetőségek: Élvezd a több kategóriát és testreszabási lehetőséget a prémium funkciókkal.\n\nTovábbi információért látogass el hivatalos weboldalunkra.\n\nAdatvédelmi irányelvek: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nFelhasználási feltételek: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Hozz létre egyedi történeteket a saját szavaidból, és élvezd a saját mesédet!",
+  "warning": "A képernyőképeken megjelenő szövegek a japán verzióhoz tartoznak.",
+  "whats_new": "Mostantól világszerte elérhető!"
+}

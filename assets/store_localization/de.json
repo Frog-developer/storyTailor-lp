@@ -1,0 +1,18 @@
+de
+// "Storytailor" ist ein zusammengesetztes Wort aus "Storyteller" und "tailor".
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "Erstellen Sie Ihr eigenes\nillustriertes Buch und lernen Sie Wörter",
+    "Speichern Sie die Wörter,\ndie Sie lernen möchten",
+    "Merken Sie sich Wörter leicht\nmit Texten und Illustrationen",
+    "Erstellen Sie ein illustriertes Buch\nin Ihrem Lieblingsgenre",
+    "Verstehen Sie die Bedeutung\nvon Wörtern sofort"
+  ],
+  "description": "Storytailor ist eine App, die einzigartige und originelle Geschichten basierend auf den vom Benutzer eingegebenen Wörtern generiert. Zu den Funktionen gehören:\n\nEinfache Bedienung: Geben Sie Wörter ein und wählen Sie eine Kategorie, um eine Geschichte zu erstellen.\n\nOriginalgeschichten: Erstellen Sie eine vollständig personalisierte Geschichte basierend auf den von Ihnen gewählten Wörtern.\n\nBücherregal-Funktion: Speichern Sie erstellte Geschichten und lesen Sie sie jederzeit.\n\nUpgrade-Optionen: Genießen Sie mehr Kategorien und Anpassungen mit Premium-Funktionen.\n\nFür weitere Informationen besuchen Sie unsere offizielle Website.\n\nDatenschutzrichtlinie: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nNutzungsbedingungen: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Erstellen Sie einzigartige Geschichten aus Ihren Wörtern und genießen Sie sie!",
+  "warning": "Die in den Screenshots angezeigten Texte sind für die japanische Version.",
+  "whats_new": "Jetzt weltweit verfügbar!"
+}

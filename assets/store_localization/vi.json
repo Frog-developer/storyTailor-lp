@@ -1,0 +1,18 @@
+vi
+// "Storytailor" là một từ ghép từ "Storyteller" và "tailor".
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "Tạo sách minh họa của riêng bạn\nvà học từ vựng",
+    "Lưu các từ\nbạn muốn học",
+    "Ghi nhớ từ dễ dàng\nvới văn bản và hình minh họa",
+    "Tạo một cuốn sách minh họa\ntheo thể loại yêu thích của bạn",
+    "Hiểu ngay lập tức\ný nghĩa của từ"
+  ],
+  "description": "Storytailor là một ứng dụng tạo ra những câu chuyện độc đáo và nguyên bản dựa trên các từ mà người dùng nhập vào. Các tính năng bao gồm:\n\nDễ sử dụng: Nhập từ và chọn một danh mục để tạo câu chuyện.\n\nCâu chuyện nguyên bản: Tạo một câu chuyện hoàn toàn tùy chỉnh dựa trên các từ bạn đã chọn.\n\nTính năng giá sách: Lưu các câu chuyện đã tạo và đọc chúng bất cứ lúc nào.\n\nTùy chọn nâng cấp: Thưởng thức nhiều danh mục và tùy chỉnh hơn với các tính năng cao cấp.\n\nĐể biết thêm thông tin, hãy truy cập trang web chính thức của chúng tôi.\n\nChính sách bảo mật: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nĐiều khoản sử dụng: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Tạo câu chuyện độc đáo từ từ ngữ của bạn và tận hưởng câu chuyện của riêng bạn!",
+  "warning": "Các văn bản hiển thị trong ảnh chụp màn hình là dành cho phiên bản tiếng Nhật.",
+  "whats_new": "Hiện đã có sẵn trên toàn thế giới!"
+}

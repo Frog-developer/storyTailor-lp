@@ -1,0 +1,18 @@
+fi
+// "Storytailor" on yhdistelmä sanoista "Storyteller" ja "tailor".
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "Luo oma kuvakirjasi\nja opi uusia sanoja",
+    "Tallenna sanat,\njoita haluat oppia",
+    "Muista sanat helposti\ntekstien ja kuvien avulla",
+    "Luo kuvakirja\nsuosikkigenressäsi",
+    "Ymmärrä sanojen merkitys\nvälittömästi"
+  ],
+  "description": "Storytailor on sovellus, joka luo ainutlaatuisia ja alkuperäisiä tarinoita käyttäjän syöttämien sanojen perusteella. Sen ominaisuuksia ovat:\n\nHelppokäyttöisyys: Syötä sanat ja valitse kategoria tarinan luomiseksi.\n\nAlkuperäiset tarinat: Luo täysin räätälöity tarina valitsemiesi sanojen perusteella.\n\nKirjahyllytoiminto: Tallenna luomasi tarinat ja lue niitä milloin tahansa.\n\nPäivitysvaihtoehdot: Nauti useammista kategorioista ja mukautuksista premium-ominaisuuksilla.\n\nLisätietoja saat vierailemalla virallisella verkkosivustollamme.\n\nTietosuojakäytäntö: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nKäyttöehdot: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Luo ainutlaatuisia tarinoita sanoistasi ja nauti omasta tarinastasi!",
+  "warning": "Näytönkuvissa näkyvät tekstit ovat japaninkielistä versiota varten.",
+  "whats_new": "Nyt saatavilla maailmanlaajuisesti!"
+}

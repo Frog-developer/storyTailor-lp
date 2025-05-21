@@ -1,0 +1,18 @@
+ja
+// 「Storytailor」は「Storyteller」と「tailor」を組み合わせた造語です。
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "自分だけの絵本を\n作って単語を学習",
+    "覚えたい単語を\nストック",
+    "文章とイラストで\n単語を覚えやすく",
+    "好みのジャンルで\n絵本を作成",
+    "単語の意味が\nすぐに分かる"
+  ],
+  "description": "StoryTailorは、ユーザーが入力した単語をもとに、ユニークでオリジナルな物語を生成するアプリです。以下の特徴を備えています：\n\n簡単な操作: 単語を入力し、カテゴリを選ぶだけで物語を生成できます。\n\nオリジナルストーリー: あなたの選んだ単語に基づいて、完全にカスタマイズされた物語を作成。\n\n本棚機能: 作成した物語を保存し、いつでも読み返すことが可能。\n\nアップグレードオプション: プレミアム機能でさらに多くのカテゴリやカスタマイズを楽しめます。\n\nより詳しい情報を知りたい場合は、公式サイトをご利用ください。\n\nプライバシーポリシー：https://storytailor.app.ito-u-oti.com/privacy_policy.html\n利用規約：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "StoryTailorは、あなたの選んだ単語からオリジナルの物語を生成するアプリです。自分だけのストーリーを作成して楽しみましょう！",
+  "warning":"スクリーンショット内のテキストは日本語版のものです。",
+  "whats_new": "全世界向けに対応しました！"
+}

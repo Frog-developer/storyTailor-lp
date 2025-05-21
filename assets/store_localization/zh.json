@@ -1,0 +1,18 @@
+zh
+// "Storytailor" 是由 "Storyteller" 和 "tailor" 组合而成的一个词。
+
+{
+  "app_name": "Storytailor",
+  "screenshot_text": [
+    "Storytailor",
+    "创建您自己的图画书\n并学习单词",
+    "保存您想要学习的单词",
+    "通过文本和插图\n轻松记住单词",
+    "在您喜欢的类型中\n创建图画书",
+    "立即理解单词的含义"
+  ],
+  "description": "Storytailor 是一款根据用户输入的单词生成独特且原创故事的应用程序。其功能包括：\n\n易于使用：输入单词并选择一个类别即可生成故事。\n\n原创故事：根据您选择的单词创建完全定制的故事。\n\n书架功能：保存创建的故事，随时阅读。\n\n升级选项：通过高级功能享受更多类别和自定义选项。\n\n欲了解更多信息，请访问我们的官方网站。\n\n隐私政策：https://storytailor.app.ito-u-oti.com/privacy_policy.html\n使用条款：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "从您的单词中创建独特的故事，享受您的童话！",
+  "warning": "截图中显示的文本为日语版本。",
+  "whats_new": "现在全球可用！"
+}
