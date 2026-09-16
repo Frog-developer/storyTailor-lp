@@ -1,0 +1,17 @@
+// "Taleloom" is a coined word combining "tale" and "loom" (a weaving machine).
+
+{
+  "app_name": "Taleloom",
+  "screenshot_text": [
+    "Taleloom",
+    "Create your own picture book\nand learn vocabulary",
+    "Stock up on words\nyou want to remember",
+    "Learn words easily with\ntext and illustrations",
+    "Create picture books\nin your favorite genre",
+    "Instantly understand\nword meanings"
+  ],
+  "description": "Taleloom is an app that generates unique and original stories based on words entered by users. Features include:\n\nSimple operation: Just enter words and select a category to generate stories.\n\nOriginal stories: Create fully customized stories based on your chosen words.\n\nBookshelf feature: Save your created stories and read them anytime.\n\nUpgrade options: Enjoy more categories and customization with premium features.\n\nFor more information, please visit our official website.\n\nPrivacy Policy: https://storytailor.app.ito-u-oti.com/privacy_policy.html\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "brief_description": "Taleloom is an app that generates original stories from your chosen words. Create and enjoy your own unique stories!",
+  "warning": "The text in screenshots is from the Japanese version.",
+  "whats_new": "Now available worldwide!"
+}
